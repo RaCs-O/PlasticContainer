@@ -82,7 +82,7 @@
   </table>
 
   <script>
-    const inventario = [
+const inventario = [
   { codigo: "1001005NA", descripcion: "chacis de carro", cantidad: 1, ubicacion: "Caja 1" },
   { codigo: "2002005NA", descripcion: "pieza plana en forma rectangular con 8 puntos de anclaje", cantidad: 2, ubicacion: "Caja 1" },
   { codigo: "2003005NA", descripcion: "pieza plana rectangular chica de 2 puntos de anclaje", cantidad: 11, ubicacion: "Caja 1" },
