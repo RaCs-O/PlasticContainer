@@ -45,8 +45,8 @@
 
   <script>
     const inventario = [
-      { codigo: "1001005NA", descripcion: "chacis de carro", cantidad: 1, ubicacion: "Caja 1" },
-      { codigo: "2002005NA", descripcion: "pieza plana en forma rectangular con 8 puntos de anclaje", cantidad: 2, ubicacion: "estante A" },
+      { codigo: "1001005NA", descripcion: "chacis de carro", cantidad: 1, ubicacion: "p2 n2" },
+      { codigo: "2002005NA", descripcion: "pieza plana en forma rectangular con 8 puntos de anclaje", cantidad: 2, ubicacion: "p2 n2" },
       { codigo: "2003005NA", descripcion: "pieza plana rectangular chica de 2 puntos de anclaje", cantidad: 11, ubicacion: "Caja 1" },
       { codigo: "2004005NA", descripcion: "pieza plana en forma de L de 3 puntos de anclaje", cantidad: 6, ubicacion: "Caja 1" },
       { codigo: "2005005NA", descripcion: "pieza plana cuadrada de 4 puntos de anclaje", cantidad: 5, ubicacion: "Caja 1" },
@@ -80,7 +80,7 @@
       { codigo: "4033005NA", descripcion: "pieza en forma de L vertical con 2 puertos de anclaje y 4 puntos de anclaje", cantidad: 4, ubicacion: "Caja 3" },
       { codigo: "4034005NA", descripcion: "pieza cuadrada con un escalon y un pequeño eje en un extremo", cantidad: 4, ubicacion: "Caja 3" },
       { codigo: "4035005NA", descripcion: "pieza de un solo puerto de anclaje con dos paredes en forma de L", cantidad: 2, ubicacion: "Caja 3" },
-      { codigo: "4036005NA", descripcion: "pieza en forma de volante de auto", cantidad: 1, ubicacion: "Caja 3" },
+      { codigo: "4036005NA", descripcion: "pieza en forma de volante de auto", cantidad: 1, ubicacion: "p2 n1" },
       { codigo: "4037005NA", descripcion: "piesa con 4 puntos de anclaje con un escalon con un arco en un extremo", cantidad: 4, ubicacion: "Caja 3" },
       { codigo: "4038005NA", descripcion: "pieza cubica con un saliente en su parte inferior un punto de anclaje arriba y uno en un extremo", cantidad: 4, ubicacion: "Caja 3" },
       { codigo: "4039005NA", descripcion: "pieza de 2 puntos de anclaje con 2 ganchos en un extremo", cantidad: 1, ubicacion: "Caja 3" },
@@ -99,9 +99,9 @@
       { codigo: "4052005RH", descripcion: "pieza cuadrada con una esquina cortada de color rojo transparente con tres puertos de anclaje", cantidad: 1, ubicacion: "Caja 3" },
       { codigo: "4053005LH", descripcion: "pieza cuadrada con una esquina cortada de color rojo transparente con tres puertos de anclaje", cantidad: 1, ubicacion: "Caja 3" },
       { codigo: "4054005NA", descripcion: "pieza en forma de aleron pequeño", cantidad: 3, ubicacion: "Caja 3" },
-      { codigo: "4055005NA", descripcion: "pieza cilindrica con un hueco en el centro(rin de rueda)", cantidad: 4, ubicacion: "Caja 3" },
-      { codigo: "4056005NA", descripcion: "pieza circular con un hueco muy grande en el centro en el exterior tiene dientes (rueda de carro )", cantidad: 4, ubicacion: "Caja 3" },
-      { codigo: "4057005NA", descripcion: "piesa grande en forma de rampa curviada asia adelante transparente ( para brisas de carro)", cantidad: 1, ubicacion: "Caja 3" }
+      { codigo: "4055005NA", descripcion: "pieza cilindrica con un hueco en el centro(rin de rueda)", cantidad: 4, ubicacion: "p3 n1" },
+      { codigo: "4056005NA", descripcion: "pieza circular con un hueco muy grande en el centro en el exterior tiene dientes (rueda de carro )", cantidad: 4, ubicacion: "p2 n1" },
+      { codigo: "4057005NA", descripcion: "piesa grande en forma de rampa curviada asia adelante transparente ( para brisas de carro)", cantidad: 1, ubicacion: "p2 n1" }
     ];
 
     const input = document.getElementById("busqueda");
